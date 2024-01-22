@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정렬</title>
+    <style>
+        #horizon {
+            width: 300px;
+            /* text-align: center -> div 안의 요소(텍스트 or 인라인 요소들) 수평 가운데 정렬 */
+            /* lineheight : -> 수직 가운데 정렬 */
+            text-align: center;
+            /* div를 가운데 정렬 */
+            margin: 0 auto;
+        }
+        
+        #wrap {
+            width: 500px;
+            height: 300px;
+            border: 1px solid gray;
+            /* 전체 감싸고있는 부모에 display: flex -> justify-content: center 전체 자식들 수평 가운데 정렬 */
+            /* align-items: center 전체 자식들 수직 가운데 정렬 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container {
+            /* 감싸고 있는 테두리를 기준으로 자식을 가운데 정렬 */
+            /* margin: 0 auto; */
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="horizon">수평 정렬</div>
+    <div id="wrap">
+        <div id="container"></div>
+    </div>
+</body>
+</html>

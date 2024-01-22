@@ -1,0 +1,218 @@
+html { 
+    overflow-y:scroll; 
+}
+
+body, #email, #password {
+    font-family: 돋음, dotum, sans-serif;
+    font-weight: 400;
+    color: #666;
+}
+
+body {
+    margin: 0; 
+    font-size: 12px; 
+    line-height: 1.6; 
+    color: #666;
+}
+
+.container {
+    margin: 0; 
+    padding: 0;
+}
+
+.member-login-container {
+    margin: 0 auto;
+    padding: 0 4.35%;
+    width: 460px;
+}
+
+.member-login-container > div {
+    width: 460px;
+}
+
+.member-logo {
+    height: 46px;
+    padding: 10.27% 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member-logo > a {
+    margin: 0px auto;
+    text-align: center; 
+    width: 43.83%; 
+    padding-top: 10%;
+}
+
+.member-logo > a > img {
+    width: 195px;
+    text-align: center; 
+    padding-right: 18px;
+}
+
+.login-choice-wrapper {
+    width: 460px;
+    height: 460px;
+}
+
+.login-choice {
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px; 
+    display: flex;
+    margin-top: 24px;
+    text-align: center;
+    
+}
+
+.login-choice > a {
+    color: #454f5b;
+    padding: 14px 0; 
+    text-align: center; 
+    text-decoration: none; 
+    flex: 1;
+}
+
+#email-login {
+    color: #346aff; 
+    font-weight: bold; 
+    border-bottom: 3px 
+    solid #346aff; 
+}
+
+#phone-login > span {
+    
+    padding-right: 16px; 
+    color: #454f5b; 
+    text-align: center; 
+    flex: 1; 
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjUgMC41SDkuNUMxMS4xNTY5IDAuNSAxMi41IDEuODQzMTUgMTIuNSAzLjVWOS41QzEyLjUgMTEuMTU2OSAxMS4xNTY5IDEyLjUgOS41IDEyLjVIMy41QzEuODQzMTUgMTIuNSAwLjUgMTEuMTU2OSAwLjUgOS41VjMuNUMwLjUgMS44NDMxNSAxLjg0MzE1IDAuNSAzLjUgMC41WiIgZmlsbD0iI0ZGMzcxMCIvPgo8cGF0aCBkPSJNOC41IDMuNUM4Ljg4OTg1IDMuNSA5LjIxMDIyIDMuNzk3NDQgOS4yNDY1NyA0LjE3Nzc3TDkuMjUgNC4yNVY4LjY0NzNDOS4yNSA5LjMwNTI3IDguNDcwOTQgOS42MzQzNSA3Ljk5OTQyIDkuMjA2MTRMNy45NTE3OSA5LjE1OTEyTDUuMjUgNi4yNjU1VjguNzVDNS4yNSA5LjEzOTg1IDQuOTUyNTYgOS40NjAyMiA0LjU3MjIzIDkuNDk2NTdMNC41IDkuNUM0LjExMDE1IDkuNSAzLjc4OTc4IDkuMjAyNTYgMy43NTM0MyA4LjgyMjIzTDMuNzUgOC43NVY0LjM2Mjg4QzMuNzUgMy43MDQ5MSA0LjUyOTA2IDMuMzc1ODQgNS4wMDA1OCAzLjgwNDA1TDUuMDQ4MjEgMy44NTEwNkw3Ljc1IDYuNzQ1VjQuMjVDNy43NSAzLjg2MDE1IDguMDQ3NDQgMy41Mzk3OCA4LjQyNzc3IDMuNTAzNDNMOC41IDMuNVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=)100% 1px/12px no-repeat;
+    background-size: 14px;
+}
+
+.member-field-wrap {
+    margin: 2.9% 0; 
+    font-size: 12px; 
+    line-height: 1.6; 
+    color: #666; 
+    width: 100%;
+}
+
+.member-email-input {
+    padding-right: 46x;
+    position: relative;
+}
+
+.member-email-input > label {
+    display: block; 
+    height: 48px; 
+    padding: 0; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    position: relative;
+    transition: border-color .25s
+}
+
+.message-icon {
+    float: left; 
+    display: inline; 
+    height: 100%; 
+    border-right: 1px solid #ccc; 
+    background-color: #fafafa;
+}
+
+.message-icon > i {
+    display: inline-block; 
+    height: 16px; 
+    padding: 0 10px 0 12px; 
+    margin-left: -4px; 
+    margin-top: 12px;
+}
+
+.email-input {
+    margin-left: 5px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+
+.email-input-hidden {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+#email {
+    margin: 0; 
+    height: 48px; 
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 16px 0 12px;
+    border: 0 none; 
+    background: none transparent;
+    font-family: 돋음, dotum, sans-serif; 
+    font-size: 14px; 
+    line-height: 20px; 
+    color: #111;
+    font-weight: 700;
+    text-indent: 12px;
+    
+}
+
+button.login, a.sign-in {
+    font-family: apple sd gothic neo,malgun gothic,nanumbarungothic,nanumgothic,dotum,sans-serif;
+}
+
+.delete-button-wrap {
+    position: relative;
+    top: -47.5px;
+    width: 46px; 
+    float: right; 
+    display: block;
+}
+
+.delete-button {
+    width: 46px; 
+    height: 100%; 
+    margin: 0; 
+    padding: 8.5px 0; 
+    border: 0; 
+    background-color: #fff;
+}
+
+.delete-button > i {
+    display: inline-block;
+}
+
+.password-input-container {
+    margin: 2.9% 0; 
+    font-size: 12px; 
+    line-height: 1.6; 
+    color: #666; 
+    width: 100%;
+}
+
+.password-input-container > div {
+    padding-right: 46x;
+}
+
+.password-input-label {
+    display: block; 
+    height: 48px; 
+    padding: 0; 
+    border: 1px solid #ccc; 
+    background-color: #fff;
+}
+
+.footer {
+    font-size: 12px;
+    padding: 20px 0 40px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.footer > div {
+    text-align: center;
+}
